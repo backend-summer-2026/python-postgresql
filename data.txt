@@ -1,0 +1,39 @@
+
+---- users ----
+id name
+1 ali
+2 vali
+3 sami
+
+---- categories ----
+id name
+1 oziq ovqat
+2 kiyim
+
+---- products ----
+id category_id name.         total
+1      2.      oq futbolka.    60-7
+2      1.      non.            500
+3      1.      yog'.           30
+4      2.      krasofka.       21-5
+
+---- carts ----
+id user_id total
+1     3.    0
+2     1.    0
+3     2.    0
+
+---- cart_items ----
+id cart_id product_id quatity
+1     2.      4.         20
+2     2.      2.         4
+3     1.      1.         2
+
+---- orders ----
+id user_id total
+1     2.    7+5
+
+---- order_items ----
+id order_id product_id quatity
+1     1.      1.         7
+2     1.      4.         5
